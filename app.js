@@ -107,11 +107,9 @@
 // function findPairs(arr, target) {
 //     let new_arr = []
 //     for (let i = 0; i < arr.length; i++) {
-//         // console.log(arr[i]);
-//         for (let g = 0; g < arr[i]; g++) {
-//             // console.log(arr[g]);
-//             if (arr[i] + arr[g] == target) {
-//                 new_arr.push(arr[i],[g])
+//         for (let g = 0; g < i; g++) {
+//             if ((arr[i] + arr[g]) == target) {
+//                 new_arr.push(arr[i], arr[g])
                 
 //             }
             
